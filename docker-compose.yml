@@ -1,6 +1,7 @@
 web:
+    tty: true
     build: .
-    working_dir: /go/src
+    #working_dir: /go/src
     ports:
      - "5000:5000"
     volumes:
